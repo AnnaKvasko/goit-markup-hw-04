@@ -125,10 +125,12 @@ background: #2e2f42;
 padding-bottom: 120px;
 padding-top: 120px;
 padding: 188px 0;
-background-image: url(..//images/people-office.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(..//images/people-office.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+max-width: 1440px;
+margin: 0 auto;
 
 }
 .section-one-title {
@@ -212,6 +214,16 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.section-two-container {
+background-color: #F4F4FD;
+border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+border-radius: 4px;
+width: 264px;
+height: 112px;
+}
+.section-two-container-icons {
+    margin: auto;
+}
 /* Main-section-our-team*/
 
 .section-our-team {
