@@ -225,6 +225,7 @@ margin-bottom: 8px;
 .section-two-container-icons {
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 /* Main-section-our-team*/
 
