@@ -284,15 +284,14 @@ padding: 32px 0;
 }
 
 .icons-link {
-fill: var(#4D5AE5);
+background-color: #4D5AE5;
  width: 40px;
 height: 40px;
-flex-shrink: 0;
 border-radius: 50%;
 }
 .social-icons {
 font-size: 16px;
-color: #fff;
+fill: #fff;
 }
 .social-icons-link {
 display: flex;
