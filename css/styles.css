@@ -287,12 +287,14 @@ padding: 32px 0;
 padding: 8px 16px 32px 16px;
 }
 .social-icons-list {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    padding-bottom: 32px;
-    flex-shrink: 0;
-    align-items: center;
+display: flex;
+justify-content: center;
+gap: 24px;
+    }
+
+ .social-icons-item {
+width: 40px;
+height: 40px;
     }
 .social-icons-link {
 background-color: #4D5AE5;
@@ -307,20 +309,13 @@ width: 100%;
 height: 100%;
 }
 
-.social-icons-item {
-    width: 40px;
-    height: 40px;
-}
 .social-icons {
-font-size: 16px;
 fill: #F4F4FD;
 display: flex;
 justify-content: center;
 align-items: center;
 width: 100%;
 }
-
-
 
 .social-icons-link :hover, .social-icons-link :focus  {
     background-color: #404BBF;
@@ -417,6 +412,10 @@ padding-top: 120px;
 padding-bottom: 120px;
 padding: 100px 0;
 }
+.container .footer-wraper {
+    display: flex; 
+    align-items: baseline;
+}
 
 .footer-logo {
 display: inline-block;
@@ -456,6 +455,8 @@ color: #FFFFFF ;
 margin-bottom: 16px;
 }
 .footer-social-list {
+    display: flex;
+    gap: 16px;
     width: 40px;
     height: 40px;
 }
