@@ -282,12 +282,22 @@ color: #434455;
 .our-team-container {
 padding: 32px 0;
 }
-
+.social-icons-container {
+}
+.social-icons-list {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 32px;
+    flex-shrink: 0;
+    }
 .icons-link {
 background-color: #4D5AE5;
 width: 40px;
 height: 40px;
 border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .social-icons {
 font-size: 16px;
@@ -295,20 +305,13 @@ fill: #F4F4FD;
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 24px;
-}
-.social-icons-link {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 24px;
-padding-bottom: 32px;
-}
-.social-icons-container {
+width: 100%;
 
 }
 
-.icons-link :hover {
+
+
+.icons-link :hover, .icons-link :focus {
     background-color: #404BBF;
 }
 /* Main-section-our-portfolio */
