@@ -284,7 +284,7 @@ padding: 32px 0;
 }
 
 .icons-link {
-    padding: 96px 192px 32px 16px;
+    
 }
 .social-icons {
 font-size: 16px;
@@ -304,6 +304,7 @@ background-color: #4D5AE5;
 width: 40px;
 height: 40px;
 border-radius: 50%;
+padding: 96px 192px 32px 16px;
 }
 
 .social-icons-container :hover {
