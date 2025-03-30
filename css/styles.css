@@ -302,6 +302,10 @@ width: 40px;
 height: 40px;
 border-radius: 50%;
 }
+
+.social-icons-container :hover {
+    background-color: #404BBF;
+}
 /* Main-section-our-portfolio */
 
 .section-our-portfolio {
