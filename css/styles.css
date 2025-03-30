@@ -293,18 +293,19 @@ gap: 24px;
  .social-icons-item {
 width: 40px;
 height: 40px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .social-icons-link {
 background-color: #4D5AE5;
-width: 40px;
-height: 40px;
 border-radius: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 width: 100%;
 height: 100%;
+}
+.social-icons-link:hover, .social-icons-link:focus  {
+    background-color: #404BBF;
 }
 
 .social-icons {
@@ -315,9 +316,6 @@ align-items: center;
 width: 100%;
 }
 
-.social-icons-link :hover, .social-icons-link :focus  {
-    background-color: #404BBF;
-}
 /* Main-section-our-portfolio */
 
 .section-our-portfolio {
@@ -382,13 +380,12 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
-padding: 40 px 32px;
 transform: translateY(100%);
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 color: #f4f4fd;
 padding: 40px 32px;
-height: 100%;
 width: 100%;
+height: 100%;
 }
 
 .our-portfolio-overlay-picture {
@@ -396,8 +393,11 @@ width: 100%;
     overflow: hidden;
 }
 
-.our-portfolio-item :hover .our-portfolio-overlay-text {
+.our-portfolio-item:hover .our-portfolio-overlay-text {
     transform: translateY(0%);
+}
+
+.our-portfolio-item:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -450,7 +450,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
 color: #FFFFFF ;
-margin-bottom: 16px;
 }
 .footer-social-list {
     display: flex;
@@ -468,16 +467,14 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-icons-link { 
     border-radius: 50%;
     background-color: #4D5AE5;
-    width: 100%;
-    height: 100%;
     display: flex; 
     align-items: center; 
     justify-content: center;
 }
-.footer-icons-link :hover, .footer-icons-link :focus {
+.footer-icons-link:hover, .footer-icons-link:focus {
     background-color: #31d0aa;
 }
 .footer-social-icons {
-    fill: #f4f4fd ;
+    fill:#f4f4fd ;
 
 }
