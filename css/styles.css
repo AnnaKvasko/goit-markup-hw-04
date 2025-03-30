@@ -308,7 +308,7 @@ gap: 24px;
 padding: 96px 192px 32px 16px;
 }
 
-.social-icons-container :hover {
+.icons-link :hover {
     background-color: #404BBF;
 }
 /* Main-section-our-portfolio */
