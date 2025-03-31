@@ -452,17 +452,20 @@ letter-spacing: 0.02em;
 margin-bottom: 16px;
 color: #FFFFFF ;
 }
+
 .footer-social-list {
 display: flex;
 gap: 16px;
-width: 40px;
-height: 40px;
+/* width: 40px;
+height: 40px; */
 }
+
 .footer-social-item {
 display: inline-flex;
 align-items: flex-start;
 gap: 16px;
-
+width: 40px;
+height: 40px;
 }
 
 .footer-icons-link { 
